@@ -1,0 +1,12 @@
+[package]
+name = "reftake"
+version = "0.1.0"
+edition = "2024"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/gzsombor/reftake"
+readme = "README.md"
+description = "A non-owning version of `std::io::Take` that wraps an existing reader by reference, allowing limited reads without transferring ownership."
+categories = ["parsing", "encoding", "data-structures"]
+keywords = ["limit", "take", "input"]
+
+[dependencies]
